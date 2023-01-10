@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CB62ED8D296D4746002AE7C0 /* hikeData.json in Resources */ = {isa = PBXBuildFile; fileRef = CB62ED8C296D4746002AE7C0 /* hikeData.json */; };
+		CB62ED8F296D476F002AE7C0 /* Hike.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB62ED8E296D476F002AE7C0 /* Hike.swift */; };
+		CB62ED91296D4886002AE7C0 /* GraphCapsule.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB62ED90296D4886002AE7C0 /* GraphCapsule.swift */; };
+		CB62ED95296D490C002AE7C0 /* HikeDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB62ED94296D490C002AE7C0 /* HikeDetail.swift */; };
+		CB62ED97296D492A002AE7C0 /* HikeGraph.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB62ED96296D492A002AE7C0 /* HikeGraph.swift */; };
+		CB62ED99296D4A6A002AE7C0 /* HikeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB62ED98296D4A69002AE7C0 /* HikeView.swift */; };
 		CBA68637296C1152002BF3D2 /* LandmarksApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBA68636296C1152002BF3D2 /* LandmarksApp.swift */; };
 		CBA68639296C1152002BF3D2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBA68638296C1152002BF3D2 /* ContentView.swift */; };
 		CBA6863B296C1153002BF3D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CBA6863A296C1153002BF3D2 /* Assets.xcassets */; };
@@ -28,6 +34,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CB62ED8C296D4746002AE7C0 /* hikeData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = hikeData.json; sourceTree = "<group>"; };
+		CB62ED8E296D476F002AE7C0 /* Hike.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hike.swift; sourceTree = "<group>"; };
+		CB62ED90296D4886002AE7C0 /* GraphCapsule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphCapsule.swift; sourceTree = "<group>"; };
+		CB62ED94296D490C002AE7C0 /* HikeDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HikeDetail.swift; sourceTree = "<group>"; };
+		CB62ED96296D492A002AE7C0 /* HikeGraph.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HikeGraph.swift; sourceTree = "<group>"; };
+		CB62ED98296D4A69002AE7C0 /* HikeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HikeView.swift; sourceTree = "<group>"; };
 		CBA68633296C1152002BF3D2 /* Landmarks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Landmarks.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBA68636296C1152002BF3D2 /* LandmarksApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarksApp.swift; sourceTree = "<group>"; };
 		CBA68638296C1152002BF3D2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -60,6 +72,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CB62ED9A296D50C4002AE7C0 /* Hekes */ = {
+			isa = PBXGroup;
+			children = (
+				CB62ED8E296D476F002AE7C0 /* Hike.swift */,
+				CB62ED94296D490C002AE7C0 /* HikeDetail.swift */,
+				CB62ED96296D492A002AE7C0 /* HikeGraph.swift */,
+				CB62ED98296D4A69002AE7C0 /* HikeView.swift */,
+				CB62ED90296D4886002AE7C0 /* GraphCapsule.swift */,
+			);
+			path = Hekes;
+			sourceTree = "<group>";
+		};
 		CBA6862A296C1152002BF3D2 = {
 			isa = PBXGroup;
 			children = (
@@ -113,6 +137,7 @@
 				CBA6864E296C177B002BF3D2 /* ModelData.swift */,
 				CBA6864C296C1550002BF3D2 /* Landmark.swift */,
 				CBA68669296C5895002BF3D2 /* Badges */,
+				CB62ED9A296D50C4002AE7C0 /* Hekes */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -121,6 +146,7 @@
 			isa = PBXGroup;
 			children = (
 				CBA6864A296C12DE002BF3D2 /* landmarkData.json */,
+				CB62ED8C296D4746002AE7C0 /* hikeData.json */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -215,6 +241,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CB62ED8D296D4746002AE7C0 /* hikeData.json in Resources */,
 				CBA6863E296C1153002BF3D2 /* Preview Assets.xcassets in Resources */,
 				CBA6863B296C1153002BF3D2 /* Assets.xcassets in Resources */,
 				CBA6864B296C12DE002BF3D2 /* landmarkData.json in Resources */,
@@ -231,12 +258,17 @@
 				CBA68639296C1152002BF3D2 /* ContentView.swift in Sources */,
 				CBA68668296C5504002BF3D2 /* Badge.swift in Sources */,
 				CBA68649296C11B2002BF3D2 /* MapView.swift in Sources */,
+				CB62ED91296D4886002AE7C0 /* GraphCapsule.swift in Sources */,
+				CB62ED97296D492A002AE7C0 /* HikeGraph.swift in Sources */,
 				CBA68637296C1152002BF3D2 /* LandmarksApp.swift in Sources */,
 				CBA6865A296C2E5B002BF3D2 /* FavoriteButton.swift in Sources */,
 				CBA6865E296C4495002BF3D2 /* HexagonParameters.swift in Sources */,
+				CB62ED8F296D476F002AE7C0 /* Hike.swift in Sources */,
 				CBA68666296C5481002BF3D2 /* RotatedBadgeSymbol.swift in Sources */,
 				CBA68664296C5360002BF3D2 /* BadgeSymbol.swift in Sources */,
 				CBA68656296C1BD9002BF3D2 /* LandmarkList.swift in Sources */,
+				CB62ED95296D490C002AE7C0 /* HikeDetail.swift in Sources */,
+				CB62ED99296D4A6A002AE7C0 /* HikeView.swift in Sources */,
 				CBA68658296C1CB5002BF3D2 /* LandmarkDetail.swift in Sources */,
 				CBA68662296C469D002BF3D2 /* BadgeBackground.swift in Sources */,
 				CBA68645296C117F002BF3D2 /* CircleImage.swift in Sources */,
@@ -379,6 +411,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -408,6 +441,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
