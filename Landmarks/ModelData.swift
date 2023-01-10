@@ -18,7 +18,7 @@ final class ModelData: ObservableObject {
     
     @Published var profile = Profile.default
     
-    var featured: [Landmark] {
+    var features: [Landmark] {
         landmarks.filter { $0.isFeatured}
     }
     
